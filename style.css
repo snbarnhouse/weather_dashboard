@@ -1,3 +1,17 @@
 header { 
     padding: 15px;
 }
+h3 {
+    color: white;
+    padding-left: 25px;
+}
+#current-weather {
+    padding-left: 500px;
+    padding-top: 100px;
+    color: black;
+}
+h2 {
+    text-align: center;
+    color: black;
+    padding-top: 25px;
+}

@@ -12,6 +12,39 @@
     <header class = "text-center text-white bg-dark">
         <h1>Weather Dashboard</h1>
     </header>
+    <!--Search for a city with return result-->
+    <div class= "row">
+        <div class = "col-sm-3 bg-dark">
+            <h3><strong>Search for a City:</strong></h3>
+            <div class ="input-group mb-3">
+                <input type= "text" class= "form-control" id = "search-city">
+                <div class= "input-group-append">
+                    <button class= "btn bg-primary text-white" id= "search-button">Search<i class = "fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <!--Search history if any-->
+            <button class = "btn btn-primary" type = "button" id = "clear-history">Clear History</button>
+            <ul class = "list-group">
+                <!--List of searched cities-->
+            </ul>
+        </div>
+    </div>
+    <div class = "col-sm-7">
+        <div class = "row ml-2">
+            <div class = "col-sm-10" id= "current-weather">
+                <h4 class= "city name mb-1 mt2" id= "current-city"></h4>
+                <p>Temperature:<span class = "current" id = "temperature"></span></p>
+                <p>Wind Speed:<span class= "current" id = "wind-speed"></span></p>
+                <p>Humidity:<span class= "current" id= "humidity"></span></p>
+                <p>UV Index:<span class= "current" id= "uv-index"></span></p>
+            </div>
+        </div>
+        <div class = "row border" id = "five-day-forecast">
+            <h2 class= "col-12" id = "forecast">5 Day Forcast:</h2>
+            <div class = "d-flex" id = "fiveday-container"></div>
+    </div>  
+    </div>
     <script src = "script.js"></script>
   </body>
   </html>
