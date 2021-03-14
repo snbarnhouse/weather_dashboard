@@ -50,7 +50,7 @@ function currentWeather(city) {
         $(currentTemperature).html((tempF).toFixed(2)+"&#8457");
         var ws=response.wind.speed;
         var windsmph=(ws*2.237).toFixed(1);
-        $(currentWSpeed).html(windsmph+"MPH");
+        $(currentWindSpeed).html(windsmph+"MPH");
         $(currentHumidty).html(response.main.humidity+"%");
         UVIndex(response.coord.lon,response.coord.lat);
 
@@ -88,7 +88,6 @@ function UVIndex(ln,lt){
 }
 //function for future forcast
 function forecast(cityid){
-    var dayover= false;
     var queryforcastURL="https://api.openweathermap.org/data/2.5/forecast?id="+cityid+"&appid="+APIKey;
     $.ajax({
         url:queryforcastURL,
