@@ -31,8 +31,8 @@ function displayWeather (event) {
     }
 }
 function currentWeather(city) {
+    var APIUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=" + APIKey;;
     //using url to get data from api
-    APIUrl + city + "&APPID=" + APIKey;
     $.ajax({
         url:APIUrl,
         method: "GET",
