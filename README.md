@@ -4,7 +4,7 @@ A weather dashboard made with HTML, CSS, and Javascript. Displays current weathe
 
 https://snbarnhouse.github.io/weather_dashboard/
 
-![weather_dashboard](https://user-images.githubusercontent.com/77131387/111082386-547cc000-84de-11eb-9538-dd899386af3f.png)
+![weather_dashboard](https://user-images.githubusercontent.com/77131387/111082505-10d68600-84df-11eb-90aa-60b49ec3c459.png)
 
 ## Your Task
 
