@@ -1,5 +1,7 @@
 # 06 Server-Side APIs: Weather Dashboard
 
+A weather dashboard made with HTML, CSS, and Javascript. Displays current weather and future 5 day forcast.
+
 https://snbarnhouse.github.io/weather_dashboard/
 
 ![weather_dashboard](https://user-images.githubusercontent.com/77131387/111082386-547cc000-84de-11eb-9538-dd899386af3f.png)
